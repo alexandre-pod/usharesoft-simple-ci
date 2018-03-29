@@ -63,7 +63,6 @@ public class CalculatorTest {
         assertThat(divide).isEqualTo(3);
     }
 
-    @Ignore
     @Test
     public void multiply_should_multiply_seven_by_two() {
         //given
@@ -72,7 +71,6 @@ public class CalculatorTest {
         int multiply = calculator.multiply(7, 2);
 
         //then
-        //TODO fix this
         assertThat(multiply).isEqualTo(14);
     }
 }
